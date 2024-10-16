@@ -1,0 +1,32 @@
+:root{
+    --backColor : white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.signup_err_message {
+    display: none;
+}
+
+.signup_input:invalid[focused="true"]~.signup_err_message {
+    display: block;
+}
+
+* {
+    font-family: 'Meera Inimai', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}

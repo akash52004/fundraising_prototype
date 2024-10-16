@@ -1,0 +1,139 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(108, 108, 108, 0.3);
+    backdrop-filter: blur(3px);
+    box-shadow: 6px 6px 7px rgba(40, 39, 39, 0.4);
+    border-radius: 50%;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.pro {
+    font-size: 1.5rem;
+    color: rgba(207, 6, 6, 0.724);
+}
+.profile:hover{
+    border-color: rgb(254, 2, 65) !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5) !important;
+}
+
+.logo {
+    text-align: center;
+}
+
+.roww {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.logoo {
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(108, 108, 108, 0.3);
+    backdrop-filter: blur(3px);
+    box-shadow: 10px 10px 7px rgba(40, 39, 39, 0.4);
+}
+
+.li {
+    padding-left: 4vw;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255) 
+}
+.lii{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.li:hover{
+    color:rgb(254, 2, 65)
+}
+.lii:hover{
+    color:rgb(255, 255, 255) 
+}
+
+.li:active{
+    color:rgb(254, 2, 65)
+}
+
+
+.call {
+    padding-left: 0.25rem;
+    padding-bottom: 0.2rem;
+    color: rgb(207, 6, 6);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+}
+
+.log {
+    height: 80px;
+    margin-top: -1rem;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 984px) {
+    .logoo {
+        grid-column: 1/2;
+        grid-row: 1;
+        border: 0px;
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 0px;
+        margin-top: 15px;
+        margin-left: 2px;
+        color: antiquewhite;
+    }
+
+    /* it was id originally */
+    .navbarSupportedContent {   
+        opacity: 0;
+    }
+
+    .log {
+        margin-left: 38px;
+        margin-bottom: -7px;
+        padding-top: 6px;
+        height: 50px;
+    }
+
+    .logo {
+        grid-column: 2/3;
+        grid-row: 1;
+        border-radius: 30px;
+        border: 1px solid rgba(241, 165, 250, 1);
+        background-color: rgba(254, 2, 65, 0.3);
+        backdrop-filter: blur(3px);
+        box-shadow: 10px 10px 7px rgba(40, 39, 39, 0.4);
+        padding-top: 14px;
+        margin-left: 26px;
+    }
+
+    .profile {
+        height: 2.75rem;
+        margin-top: 24px;
+        margin-left: 70px;
+    }
+
+    .navcon{
+        color: rgb(43, 2, 48);
+        font-weight: bold;
+    }
+
+    .con{
+        position: relative;
+        left: 1.4rem;
+    }
+    .burger{
+        margin-top: 0rem;
+    }
+
+}

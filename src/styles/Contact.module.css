@@ -1,0 +1,117 @@
+.back{
+    background-color: rgb(143, 34, 34);
+    width: 110vw;
+    height: 45vh;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-left: -10vw;
+    text-align: center;
+    padding: 40px;
+}
+.backcont{
+    height:20vh;
+}
+.cont{
+    font-size: 40px;
+}
+.us{
+    font-size: 17px;
+}
+.cardus{
+    width: 48rem;
+    border-radius: 0;
+    padding: 40px;
+}
+.details{
+    margin-top: -22vh;
+}
+.ibox{
+    height: 7vh;
+    width: 40rem;
+    padding: 1em;
+}
+.ibtn{
+    text-align: center;
+    height: 4rem;
+    width: 10rem;
+    border-radius: 0;
+    background-color: rgb(143, 34, 34);
+    color: aliceblue;
+    border-color:rgb(143, 34, 34);
+    transition: all 0.5s;
+}
+.ibtn:hover{
+    background-color: aliceblue;
+    color:  rgb(143, 34, 34);
+    font-weight: bold;
+}
+.det{
+    width: 40rem;
+}
+.btnn{
+    text-align: center;
+}
+.down{
+    display: flex;
+    grid-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(143, 34, 34);
+    width: 110vw;
+    height: 45vh;
+    margin-left: -10vw;
+    margin-bottom: 3em;
+}
+.ll{
+    color: aliceblue;
+    display: flex;
+    width: 25rem;
+    height: 25vh;
+    background-color: rgba(240, 248, 255, 0.201);
+}
+.rr{
+    color: aliceblue;
+    display: flex;
+    width: 25rem;
+    height: 25vh;
+    background-color: rgba(240, 248, 255, 0.201);
+}
+.loggg{
+    height: 80px;
+    width: 80px;
+}
+.chats{
+    padding: 8px;
+    background-color: aliceblue;
+    color:  rgb(143, 34, 34);
+    /* border-color: rgb(143, 34, 34); */
+    transition: all 0.5s;
+}
+.chats:hover{
+    background-color: rgb(143, 34, 34);
+    color: aliceblue ;
+   
+    /* font-weight: bold; */
+}
+@media screen and (max-width: 870px){
+    .details{
+        margin-left: -1.6rem;
+    }
+    .cardus{
+        width: 88.27586206896552vw;
+    }
+    .ibox, .det{
+        width: 73.73271889400921vw;
+    }
+    .down{
+        height: 65vh;
+    }
+}
+.a{
+    text-decoration: none;
+    color:rgb(226, 131, 43);
+    transition: all 0.3s;
+}
+.a:hover{
+    color:rgb(0, 0, 0);
+}

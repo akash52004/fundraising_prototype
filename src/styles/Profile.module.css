@@ -1,0 +1,241 @@
+/* .boddy {
+    height: 100vh;
+} */
+
+.acclsidecont {
+    background-color: rgba(254, 2, 65, 0.3);
+    backdrop-filter: blur(2px);
+    box-shadow: 1px 1px 15px black;
+    width: 80%;
+    height: 80vh;
+    position: sticky;
+    top: 10vh;
+    z-index: 1;
+}
+
+.acclside {
+
+    /* background-color: rgba(254, 2, 65, 0.3);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px black; */
+    width: 100%;
+    height: 2.6em;
+    font-size: 1.3em;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.profilelink{
+    text-decoration: none;
+    color: inherit;
+}
+
+.profilelink:hover{
+    color:inherit
+}
+
+.profilelink:active{
+    color:inherit
+}
+
+.btnl{
+    font-size: 1em;
+    background-color: rgba(165, 51, 51, 0) !important;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid white;
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.btnl:hover{
+    background-color: rgb(254, 2, 65)!important;
+    color: white;
+}
+
+.acclside:hover{
+    transform: scale(1.15);
+    color: rgb(254, 2, 65);
+}
+
+.acclside:active{
+    color: rgb(254, 2, 65);
+}
+
+
+
+.profilespace {
+    height: 20vh;
+    background-color: var(--backColor);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.accig {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.hr {
+    border: black;
+    border-width: 100px;
+}
+
+.accig1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: -8vh;
+    margin-left: 5vw;
+    z-index: 1;
+}
+
+.data {
+    margin-top: 10px;
+    padding-left: 5vw;
+    height: 170px;
+}
+.data{
+    color: greenyellow;
+}
+.title{
+    letter-spacing: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    color:rgb(255, 249, 226);
+}
+
+.ngobox {
+    background-color: rgba(3, 3, 3, 0.795);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px black;
+    font-size: 1.3em;
+    color: aliceblue;
+    /* height: 9rem; */
+}
+
+.picborder {
+    border: 2px solid black;
+}
+
+.donatebox {
+    font-size: 1.3rem;
+    color: aliceblue;
+    /* border-left: thick solid rgba(202, 17, 63, 0.986); */
+    /* border-top:thick solid rgba(202, 17, 63, 0.986); */
+    position: relative;
+    background-color: rgba(126, 126, 126, 0.267);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px black;
+    /* width: 47%; */
+    margin-left: 1rem;
+    margin-top: 10rem;
+}
+
+.cornerheart {
+    position: absolute;
+    top: -80px;
+    left: -30px;
+
+
+    animation-name: heartanim;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes heartanim {
+    from {
+        /* transform: rotate(300deg); */
+
+        transform: scale(5);
+        color: pink;
+    }
+    to {
+
+        color: rgba(202, 17, 63, 0.986);
+        transform: scale(6.0);
+    }
+}
+
+/* .heart{
+    background-color: rgba(202, 17, 63, 0.986);
+} */
+.plusbutton {
+    /* margin: -1rem; */
+    height: 5vh;
+    width: 5vh;
+    background-color: antiquewhite;
+    color: black;
+    clip-path: ellipse(67% 69% at 67% 20%);
+    padding-bottom: 3em;
+    transition: all 0.2s;
+}
+
+.plusbutton:hover {
+    transform: scale(1.4);
+    background-color: rgba(202, 17, 63, 0.986);
+    color: white;
+    transition-delay: 0.5s;
+}
+
+.plus:active {
+    border-color: rgba(202, 17, 63, 0.986) !important;
+
+}
+
+.donatecard,
+.issuecard {
+    width: 18rem;
+    transform: scale(0.7);
+    border-radius: 15px;
+    background-color: rgba(250, 235, 215, 0.486);
+
+}
+
+.issuebox {
+    font-size: 1.3em;
+    color: aliceblue;
+    background-color: rgba(212, 87, 118, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px black;
+    /* width: 47%; */
+    margin-left: 1rem;
+    margin-top: 10rem;
+}
+
+.donatecardbody {
+    background-color: rgba(202, 17, 63, 0.986);
+}
+
+.issuecardbody {
+    background-color: rgba(202, 17, 63, 0.986);
+}
+
+.leftborder {
+    border-left: thick solid rgba(202, 17, 63, 0.986);
+}
+.ngoimg{
+    height:9rem;
+    width:9rem;
+    background: white;
+    /* padding: 3rem; */
+}
+.addngo{
+    padding-bottom: 60px;
+}
+@media screen and (max-width:991px){
+    .ngobox{
+        margin-left: 1rem;
+    }
+}
